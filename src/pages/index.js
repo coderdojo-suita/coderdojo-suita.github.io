@@ -8,13 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Hi!</h1>
+    <p>CoderDojo吹田の各リンクはここにあります 👉 </p>
+    <ul>
+      <li>Doorkeeper: <a href="https://coderdojo-suita.doorkeeper.jp/">https://coderdojo-suita.doorkeeper.jp/</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/coderdojosuita/">https://www.facebook.com/coderdojosuita/</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/coderdojosuita/">https://www.instagram.com/coderdojosuita/</a> </li>
+    </ul>
   </Layout>
 )
 
